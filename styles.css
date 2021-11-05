@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main {
@@ -18,7 +18,7 @@
 .logo-container {
     height: 65%;
     width: 65%;
-    background: url('./images/logo.png');
+    background: url('./images/logo-transparent.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position:right;
@@ -52,7 +52,9 @@
 
 .footer p {
     text-align: center;
-    font-weight: 300;
+    font-weight: 100;
+    font-size: .9rem;
+    word-spacing: 2px;
 }
 
 .navbar-contact {

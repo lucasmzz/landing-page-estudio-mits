@@ -8,10 +8,11 @@
 .main {
     width: 100vw;
     height: 100vh;
-    background-color: #54585f;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: url('./images/marble_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
 }
 
 .logo-container {
@@ -20,18 +21,22 @@
     background: url('./images/logo.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:right;
+    position: absolute;
+    right: 8%;
+    top: 8%;
 }
 
 .navbar {
     position: absolute;
     top: 0;
     width: 100vw;
-    padding: 20px 10px;
+    padding: 10px 10px;
     color: #fff;
-    background-color: rgba(0,0,0,0.2);
+    background-color: #6c757d;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .footer {
@@ -40,13 +45,35 @@
     width: 100vw;
     padding: 10px;
     color: #fff;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #6c757d;
     display: flex;
-    justify-content: flex-start;
-    box-shadow: 1px 1px 15px whitesmoke;
+    justify-content: center;
 }
 
-.nav-list {
+.footer p {
+    text-align: center;
+    font-weight: 300;
+}
+
+.navbar-contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-contact-link {
+    padding: 0 15px;
+    font-size: 1.8rem;
+    color: #fff;
+    transition: all ease-in-out 0.5s;
+}
+
+.navbar-contact-link i:hover {
+    color: rgb(19, 186, 241);
+    transform: scale(1.25);
+}
+
+.navbar-list-social {
     display: flex;
     list-style: none;
 }
@@ -54,11 +81,10 @@
 .nav-item {
     padding: 0 15px;
     font-size: 1.4rem;
-    color: whitesmoke;
 }
 
 .nav-item a {
-    color: whitesmoke;
+    color: #fff;
     transition: all ease-in-out 0.5s;
 }
 

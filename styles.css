@@ -19,33 +19,26 @@
     width: 35%;
     height: auto;
     position: absolute;
-    right:8%;
-    top: 3%;
+    right:10%;
+    top: 20%;
 }
 
-@media screen and (max-width: 1500px) {
+/* @media screen and (max-width: 1500px) {
     .logo-container {
-        width: 45%;
+        width: 55%;
         
     }
   }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
     .logo-container {
         width: 65%;
-        top: 30%;
-        left: 50%;
-        transform: translate(-50%,-50%);
     }
-
-    .footer-text {
-
-    }
-  }
-  
+}
+*/
   @media screen and (max-width: 600px) {
     .logo-container {
-        width: 85%;
+        width: 90%;
         top: 30%;
         left: 50%;
         transform: translate(-50%,-50%);
@@ -54,7 +47,7 @@
     .navbar-contact-title {
         display: none;
     }
-  }
+  } 
 
 .navbar {
     position: absolute;

@@ -16,16 +16,45 @@
 }
 
 .logo-container {
-    height: 65%;
-    width: 65%;
-    background: url('./images/logo-transparent.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position:right;
+    width: 35%;
+    height: auto;
     position: absolute;
-    right: 8%;
-    top: 8%;
+    right:8%;
+    top: 3%;
 }
+
+@media screen and (max-width: 1500px) {
+    .logo-container {
+        width: 45%;
+        
+    }
+  }
+
+@media screen and (max-width: 992px) {
+    .logo-container {
+        width: 65%;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .footer-text {
+
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .logo-container {
+        width: 85%;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .navbar-contact-title {
+        display: none;
+    }
+  }
 
 .navbar {
     position: absolute;
@@ -48,9 +77,10 @@
     background-color: #6c757d;
     display: flex;
     justify-content: center;
+    border-top: 1px solid #ADB5BD;
 }
 
-.footer p {
+.footer-text {
     text-align: center;
     font-weight: 100;
     font-size: .9rem;
